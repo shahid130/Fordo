@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fordo</title>
+	<link rel="stylesheet" href="fordo.css">
+</head>
+
+<body>
+	<h1>Fordo</h1>
+
+	<form id = addItemForm>
+		<label for="itemAdd">Item Name</label> </br>
+		<input type = "text" id = "addNeed" name = "item"  required> </br>
+		<label for="qunatityAdd">Quantity</label> </br>
+		<input type = "text" id = "addQuantity" name = "quan" ></br>
+		<input type="Submit" id = "addProduct" value="Add">
+	</form>
+
+ 
+	
+	<h4>Need To Buy:</h4>
+	
+	<div id="itemListDiv" >
+		<ul id="itemList"></ul>
+    </div>
+
+	
+	<h4>Already Taken:</h4>
+	
+	<div id="takenListDiv" >
+		<ul id="takenList"></ul>
+    </div>
+	
+	
+	<div id = "divClearList" "><button onclick="clearFunction()" id = "ClearList" >Clear List</button>
+	</div>
+
+	
+	<script src="fordo.js" > </script>
+</body>
+</html>

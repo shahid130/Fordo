@@ -1,0 +1,66 @@
+body {
+  background-color: #bcd6f7;
+  width: 40%;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+h1{
+	color: red;
+	text-align: center;
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;
+}
+
+form {
+	background-color: #e3a2f5;
+	color: darkblue;
+	text-align: center;
+	line-height: 20px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#addProduct {
+	background-color: #fc7cf6;
+	text-align: center;
+}
+
+#itemListDiv, #takenListDiv{
+	background-color: #94bff7;
+	text-align: left;
+	font-size: 15px;
+	padding-left:10px;
+	width: 100%;
+}
+
+#itemListDiv li, #takenListDiv li {
+	font-size:18px;
+	line-height:25px;
+	color:black;
+	border-bottom: 1px dotted #bcd6f7;
+	text-transform: capitalize;
+}
+
+h4{
+	color: darkblue;
+	font-size: 22px;
+	text-align: left;
+}
+
+#ClearList {
+	background-color: #9fcde3;
+	text-align: center;
+}
+
+#divClearList {
+	display: inline-block;
+    float: left;
+}
+
+button {
+  display: inline-block;
+  float: right;
+  background-color: lightblue;
+}
